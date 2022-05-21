@@ -1,6 +1,6 @@
 # SHA3
 
-A simple SHA-3 / Keccak / Shake hash ES modules for JavaScript supports UTF-8 encoding.
+A simple SHA-3 / Keccak / Shake (SHAKE128 / SHAKE256) hash ES modules.
 
 ## How to use
 
