@@ -15,6 +15,12 @@ console.log(SHAKE128.digest("IchigoJam", 256));
 * Sha3 methods has been renamed to keccak since v0.2.0. It means that sha3 methods of v0.1.x are equal to keccak methods of v0.2.x and later.
 * `buffer` method is deprecated. This maybe confuse with Buffer in node.js. Please use `arrayBuffer` instead.
 
+## Todo
+
+- tests
+- fix Usage in README.md
+- add TypeScript support
+
 ## Demo
 [SHA3-512 Online](http://emn178.github.io/online-tools/sha3_512.html)  
 [SHA3-384 Online](http://emn178.github.io/online-tools/sha3_384.html)  
@@ -26,19 +32,6 @@ console.log(SHAKE128.digest("IchigoJam", 256));
 [Keccak-224 Online](http://emn178.github.io/online-tools/keccak_224.html)  
 [Shake128 Online](http://emn178.github.io/online-tools/shake_128.html)  
 [Shake256 Online](http://emn178.github.io/online-tools/shake_256.html)  
-
-## Download
-[Compress](https://raw.github.com/emn178/js-sha3/master/build/sha3.min.js)  
-[Uncompress](https://raw.github.com/emn178/js-sha3/master/src/sha3.js)
-
-## Installation
-You can also install js-sha3 by using Bower.
-
-    bower install js-sha3
-
-For node.js, you can use this command to install:
-
-    npm install js-sha3
 
 ## Usage
 You could use like this:
