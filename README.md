@@ -1,10 +1,14 @@
-# js-sha3
+# SHA3
 
-[![Build Status](https://travis-ci.org/emn178/js-sha3.svg?branch=master)](https://travis-ci.org/emn178/js-sha3)
-[![Coverage Status](https://coveralls.io/repos/emn178/js-sha3/badge.svg?branch=master)](https://coveralls.io/r/emn178/js-sha3?branch=master)  
-[![NPM](https://nodei.co/npm/js-sha3.png?stars&downloads)](https://nodei.co/npm/js-sha3/)
+A simple SHA-3 / Keccak / Shake hash ES modules for JavaScript supports UTF-8 encoding.
 
-A simple SHA-3 / Keccak / Shake hash function for JavaScript supports UTF-8 encoding.
+## How to use
+
+```js
+import { SHAKE128 } from "https://code4fukui.github.io/SHA3/SHAKE128.js";
+
+console.log(SHAKE128.digest("IchigoJam", 256));
+```
 
 ## Notice
 * v0.8.0+ will throw an error if try to update hash after finalize.
