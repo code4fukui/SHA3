@@ -1,5 +1,10 @@
 # Change Log
 
+## v0.8.1 / 2022-05-22
+### Changed
+- to ES modules
+- remove Node.js support
+
 ## v0.8.0 / 2018-08-05
 ### Added
 - TypeScript definitions.
