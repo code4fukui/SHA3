@@ -18,7 +18,7 @@
   var WEB_WORKER = !WINDOW && typeof self === 'object';
   var NODE_JS = !root.JS_SHA3_NO_NODE_JS && typeof process === 'object' && process.versions && process.versions.node;
   if (NODE_JS) {
-    root = global;
+    root = globalThis;
   } else if (WEB_WORKER) {
     root = self;
   }
