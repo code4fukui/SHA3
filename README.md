@@ -1,5 +1,7 @@
 # SHA3
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A simple SHA-3 / Keccak / Shake (SHAKE128 / SHAKE256) hash ES modules.
 
 ## Demo
