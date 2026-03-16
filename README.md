@@ -34,4 +34,4 @@ console.log(SHAKE256.digest("IchigoJam", 256));
 * `buffer` method is deprecated. Use `arrayBuffer` instead.
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).
